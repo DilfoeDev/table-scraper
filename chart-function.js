@@ -11,7 +11,7 @@ let medalCounts = [];
 
 
 data.forEach(function(values) {                //goes through data.json and for each array set pushes values to two seperate arrays
-  countries.push(values[0]).stringify;  
+  countries.push(values[0]);  
   medalCounts.push(values[1]);
 });
 
