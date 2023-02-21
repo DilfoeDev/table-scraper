@@ -26,4 +26,4 @@
 
 # Requirements needed:
 1. Node.js v18.14.1 installed @ https://nodejs.org/en/download/
-2. On a Mac, chromium may need to be installed by running- node node_modules/puppeteer/install.js command in a terminal window
+2. On a Mac, chromium may need to be installed by running the following command in a terminal window: node node_modules/puppeteer/install.js
