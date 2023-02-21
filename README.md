@@ -1,8 +1,8 @@
 # My Solution for Detector Inspector Engineering Challenge - Dillon Foenander
 
-# How-to for scraper tool test app
+# How-to for table scraper test app
 1. In a terminal window cd to project root directory run npm install for node modules and npm start this will;
-2. Run scraper-class and find the 2nd table body within the wiki page for 2022 Comm Games provided as a url (Input)
+2. Run scraper-class and find the 2nd table body within the wiki page for 2022 Comm Games provided as a url (Input)(https://en.wikipedia.org/wiki/2022_Commonwealth_Games_medal_table)
 3. Map each table row into an Array named tableData
 4. Find All innerText data in the second column for country name
 5. Find All innerText data in the third column for Gold Medals Won Number
@@ -23,3 +23,6 @@
 2. Libraries/Packages used-     
     chartjs-to-image: to create chart and store as image
     puppeteer: to open a browser for a provided url and scrape data from a table
+
+# Requirements needed:
+1. Node.js v18.14.1 installed @ https://nodejs.org/en/download/
